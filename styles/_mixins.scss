@@ -1,0 +1,32 @@
+@import "./_variables";
+
+//Media Queries
+@mixin phone-sm-break {
+  @media only screen and (min-width: $sm-phone) {
+    @content;
+  }
+}
+
+@mixin phone-break {
+  @media only screen and (min-width: $phone) {
+    @content;
+  }
+}
+
+@mixin tablet-break {
+  @media only screen and (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin desktop-break {
+  @media only screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin desktop-lg-break {
+  @media only screen and (min-width: $xl-desktop) {
+    @content;
+  }
+}
