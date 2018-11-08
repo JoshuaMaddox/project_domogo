@@ -1,5 +1,6 @@
 @import "./styles/_mixins";
 @import "./styles/_variables";
+@import "./styles/why-domogo";
 
 * {
   margin: 0;
@@ -21,11 +22,15 @@ h3,
 h4,
 h5,
 h6,
-p {
+.nav-logo {
   font-family: "Open Sans", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   color: $purple;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
 }
 
 .thin-helper {
@@ -217,6 +222,10 @@ h1 {
 
   h1 {
     font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
   }
 
   .hero-cta {
